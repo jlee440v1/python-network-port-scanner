@@ -6,23 +6,24 @@ A Python-based TCP port scanner developed as a cybersecurity learning project. T
 
 ## Features
 
-- Accepts a target IP address or hostname
-- Allows the user to specify a port range
+- Accepts an IP address or hostname as the target
+- Allows configurable start and end ports
 - Identifies open TCP ports
 - Attempts to identify common services
 - Measures scan duration
-- Validates user input
-- Handles invalid targets and port ranges
+- Validates port ranges and user input
+- Handles invalid targets and input errors
+- Provides command-line output for scan results
 
 ## Technologies
 
 - Python 3
-- Python socket library
+- Python `socket` library
 - TCP/IP networking
 - Linux/Ubuntu
+- Git/GitHub
 
 ## Usage
 
 ```bash
 python3 port_scanner.py <target> <start_port> <end_port>
-
